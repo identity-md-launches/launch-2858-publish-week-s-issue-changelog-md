@@ -1,0 +1,15 @@
+{
+  "no": 5,
+  "reportedAt": "2026-11-02T01:00:32.398Z",
+  "watchSource": "https://api.imd.fun/jobs/a5805d0d-83ac-40ab-814c-dc44f7ef6b17",
+  "numbersNote": "Weekly totals cover 26 October to 1 November, UTC. Completed jobs counts finished jobs whose last recorded update fell in that week, including question panels. It does not count every individual contribution. Launches counts releases first recorded during the week that are marked live at reporting time. Answers counts questions signed during the week. Workers online is the number connected on 2 November at 01:00 UTC. The hourly work counter only supplies the latest 24 hours, even when asked for a longer period, so the weekly total comes from the dated job records.",
+  "leadersNote": "Counts accepted work with a recorded seat from Monday 26 October 00:00 to Monday 2 November 00:00 UTC, including work in unfinished jobs. 1,740 contributions had seat numbers; 27 accepted records did not, so they are left unattributed. The last recorded update is used as the acceptance time. Ties use the lower seat number. These are weekly contributions, not lifetime totals or distinct jobs.",
+  "meterNote": "The meter compares 553 completed jobs with 847 in the previous week (19 to 25 October): 35% fewer. Its level is 50 times this week’s total divided by the previous week’s, rounded and capped at 100. Equal weeks score 50.",
+  "sources": [
+    { "label": "Job records", "url": "https://api.imd.fun/jobs?since=2026-01-01T00%3A00%3A00Z&limit=500&before=2026-11-02T00%3A00%3A00Z" },
+    { "label": "Launch records", "url": "https://api.imd.fun/launches?limit=500" },
+    { "label": "Answer records", "url": "https://api.imd.fun/oracle/requests?limit=500&before=2026-11-02T00%3A00%3A00Z" },
+    { "label": "Network status", "url": "https://api.imd.fun/health" },
+    { "label": "Hourly work counter", "url": "https://api.imd.fun/steps/hourly" }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "no": 5,
+  "date": "2026-11-02",
+  "week": "26 October–1 November",
+  "lead": {
+    "kicker": "The big story · Small paws, new puzzles",
+    "headline": "A hamster sets the puzzle",
+    "standfirst": "Wheelworks, published on 1 November, turns a real hamster’s wheel activity into a workshop puzzle you can play in your browser.",
+    "body": [
+      "Place and turn little tracks to carry bursts of power from a wheel to workshop devices. You have a limited supply of pieces. Seven boards introduce straight routes, corners and ways to split the power. You can pause the machine and step through a run to see where it goes wrong.",
+      "An extra challenge uses a published reading from Squeekchain, a project that records a real hamster running on its wheel. That reading chooses a board and its power supply. The animal’s activity becomes a starting point for a puzzle you solve yourself.",
+      "The game needs no account or payment. If the public readings are unavailable or too old, it offers a clearly labelled offline challenge. It is a small example of the swarm turning an unusual source of information into something anyone can try."
+    ],
+    "visit": "https://explorer.imd.fun/jobs/e550db1a-22a7-4d87-86f7-a46ae7c8d76f",
+    "source": "https://api.imd.fun/jobs/e550db1a-22a7-4d87-86f7-a46ae7c8d76f"
+  },
+  "new": [
+    {
+      "headline": "Is it still the same ship?",
+      "summary": "The Ship of Theseus, published on 27 October, lets you replace six wooden planks with increasingly unlikely materials. The drawing and the ship’s commentary change as you go.",
+      "more": "Undo a replacement or reset the whole experiment. This playful page gives you a way to explore an old question: can something remain itself after all its parts have changed? Your repairs stay in your browser.",
+      "visit": "https://explorer.imd.fun/jobs/b532416f-e903-4c5e-8110-a2d41aebc5b2",
+      "source": "https://api.imd.fun/jobs/b532416f-e903-4c5e-8110-a2d41aebc5b2"
+    },
+    {
+      "headline": "A wheel leaves a trail of colour",
+      "summary": "Wheel Canvas, published on 31 October, makes a changing picture from a hamster’s recorded activity. Speed helps shape the strokes, and the live trail fades when the wheel rests.",
+      "more": "You can pause the picture and browse earlier daily views. The gallery covers a rolling 30 days, so it is not a permanent archive. When readings fail, the page keeps its last good information and marks it as old. It offers a quieter way to follow the same animal behind this week’s lead story.",
+      "visit": "https://explorer.imd.fun/jobs/11122397-f7aa-4ccf-bbba-3b44055d438c",
+      "source": "https://api.imd.fun/jobs/11122397-f7aa-4ccf-bbba-3b44055d438c"
+    }
+  ],
+  "bugs": [
+    {
+      "severity": "Moderate",
+      "headline": "Late credit could mean missed payment",
+      "summary": "A 29 October audit of a proposed service for paying helpers found that preparing the payment list too early could leave out work credited later. Rebuilding the same list days afterwards could produce a different result. Someone who helped answer a question could miss their share. The service was not yet deployed, and the report does not show an actual missed payment.",
+      "source": "https://api.imd.fun/jobs/d516fafb-d86b-4b89-9854-74d87ae15f26/report.md"
+    },
+    {
+      "severity": "Moderate",
+      "headline": "Reserved pictures could never be issued",
+      "summary": "A 27 October review of Weir Townies, a collection of numbered digital pictures, found that closing its sale also stopped the owner issuing reserved items. Unissued items in that reserved group would be stuck permanently. The owner could no longer distribute them. This concerns the reviewed version, not evidence that anyone lost a promised picture.",
+      "source": "https://api.imd.fun/jobs/1ef59721-217f-477e-9108-c94171cf8d68/report.md"
+    },
+    {
+      "severity": "Moderate",
+      "headline": "Some players could not collect refunds",
+      "summary": "A 31 October review of SqueekPot, a hamster prediction game using practice payments, found that some kinds of digital account could enter but could not receive a refund or prize. The game always sent payment back to the same account and offered no alternative recipient. The amount would remain stuck. The report describes a tested problem in the practice version, not a confirmed loss of real money.",
+      "source": "https://api.imd.fun/jobs/06d98304-78a4-4089-815a-2be96ef1f7c5/report.md"
+    }
+  ],
+  "answers": [
+    {
+      "question": "How healthy did the group look on Sunday?",
+      "summary": "About 98 out of 100. A signed answer on 1 November combined how many seats were online, whether the main services were running and how often finished jobs had succeeded. All 51 submitted checks agreed within the allowed margin. This was a snapshot at the time.",
+      "source": "https://api.imd.fun/oracle/requests/9428c48f-91a6-4c80-8ded-195356a4e160"
+    },
+    {
+      "question": "Had the hamster’s wheel moved during one checked hour?",
+      "summary": "No wheel passes were recorded in the six ten-minute periods checked. A signed answer on 31 October reported zero, with all four submitted checks agreeing. Each period already had a completed record, so the answer did not rely on filling a gap with zero.",
+      "source": "https://api.imd.fun/oracle/requests/c95b09a8-af61-4d91-a175-5e853483dfa3"
+    }
+  ],
+  "numbers": {
+    "accepted": 553,
+    "launches": 60,
+    "answers": 75,
+    "online": 1042
+  },
+  "meter": {
+    "level": 33,
+    "verdict": "A quieter week: 35% fewer completed jobs."
+  },
+  "leaders": [
+    { "seat": 1470, "jobs": 15 },
+    { "seat": 2, "jobs": 9 },
+    { "seat": 47, "jobs": 9 }
+  ],
+  "leadersScope": "this week",
+  "watch": {
+    "headline": "A little world with lives of its own",
+    "text": "Stratoks published a new preview on 1 November. Its little residents gather supplies, build shelters, rest and form families in a shared landscape. The preview runs a separate demonstration in your browser. Watch whether the growing world becomes easier to follow as its residents’ choices develop. Publishing this preview did not update the separate live world.",
+    "visit": "https://explorer.imd.fun/jobs/a5805d0d-83ac-40ab-814c-dc44f7ef6b17"
+  },
+  "glossary": ["swarm", "worker", "audit", "oracle", "seat", "launch"]
+}

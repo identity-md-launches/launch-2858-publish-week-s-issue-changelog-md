@@ -1,0 +1,296 @@
+{
+  "issue": 5,
+  "existingSuite": {
+    "browser": "156.0.8078.4",
+    "productionUrl": "/preview/paper/",
+    "checks": [
+      "Latest issue is pre-rendered and hydrated",
+      "5 actual issue(s) produce 5 tab(s), newest first, only the first tagged Latest",
+      "Sources are hidden initially",
+      "Visit links are visible without expanding articles",
+      "Visit links open safely in a new tab",
+      "Show sources reveals article, watch and metric links",
+      "Read more expands by keyboard",
+      "Expanded detail contains the full story",
+      "Read less collapses by keyboard",
+      "Glossary opens an accessible native dialog",
+      "Glossary dialog automated accessibility scan",
+      "Escape closes glossary and returns focus",
+      "ArrowRight from the newest tab selects the next issue and updates the link",
+      "No document overflow at 1440px",
+      "Automated accessibility scan at 1440px",
+      "No document overflow at 1024px",
+      "Automated accessibility scan at 1024px",
+      "No document overflow at 768px",
+      "Automated accessibility scan at 768px",
+      "No document overflow at 390px",
+      "Automated accessibility scan at 390px",
+      "No document overflow at 320px",
+      "Automated accessibility scan at 320px",
+      "Measured text contrast meets 4.5:1 for all six rendered pairs",
+      "Dark preference retains the required light paper",
+      "200% text enlargement keeps document within viewport",
+      "Direct production #no1 opens the oldest issue",
+      "Oldest issue keeps the all-time seats heading",
+      "Oldest issue shows its real publication date",
+      "Newest issue shows the weekly seats heading and workers online label",
+      "Newest issue date line shows publication date and covered week",
+      "Only Google Fonts uses an external request",
+      "No application console errors",
+      "No failed application resources",
+      "Paper and primary controls work with all external networking blocked",
+      "Fallback fonts reflow without overflow",
+      "The latest paper is readable even before JavaScript",
+      "Archive direct link selects an older issue",
+      "Archive tabs are newest first, only first is Latest",
+      "Selected issue changes number, date, figures, leaders and watch together",
+      "Empty editorial sections render honest empty states",
+      "ArrowRight moves focus and opens the next full paper",
+      "ArrowLeft goes back to the preceding issue",
+      "Home selects the newest issue",
+      "End selects the oldest issue",
+      "Browser Back restores the previous issue",
+      "Skip link does not reset an archived issue",
+      "Multiple tabs scroll sideways without widening the page",
+      "Keyboard navigation scrolls the selected tab into view",
+      "Unknown issue link falls back to Latest with an explanation",
+      "RSS contains all fixture issues newest first",
+      "Production RSS lists every issue newest first and matches root feed",
+      "Publisher URL option points feed items to issue anchors",
+      "Production RSS links every item to its issue tab on the paper and the channel to the paper",
+      "Local script and stylesheet URLs are relative",
+      "No external scripts",
+      "Archive fixture never enters the real export",
+      "Production includes all issue data in HTML"
+    ],
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1100,
+        "overflow": {
+          "scroll": 1440,
+          "viewport": 1440
+        },
+        "violations": 0
+      },
+      {
+        "width": 1024,
+        "height": 900,
+        "overflow": {
+          "scroll": 1024,
+          "viewport": 1024
+        },
+        "violations": 0
+      },
+      {
+        "width": 768,
+        "height": 1024,
+        "overflow": {
+          "scroll": 768,
+          "viewport": 768
+        },
+        "violations": 0
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "overflow": {
+          "scroll": 390,
+          "viewport": 390
+        },
+        "violations": 0
+      },
+      {
+        "width": 320,
+        "height": 800,
+        "overflow": {
+          "scroll": 320,
+          "viewport": 320
+        },
+        "violations": 0
+      }
+    ],
+    "consoleErrors": [],
+    "requestFailures": [],
+    "externalRequests": [
+      "https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=UnifrakturMaguntia&display=swap",
+      "https://fonts.gstatic.com/s/newsreader/v26/cY9AfjOCX1hbuyalUrK4397yjA.woff2",
+      "https://fonts.gstatic.com/s/librefranklin/v20/jizDREVItHgc8qDIbSTKq4XkRiUf2zc.woff2",
+      "https://fonts.gstatic.com/s/unifrakturmaguntia/v22/WWXPlieVYwiGNomYU-ciRLRvEmK7oaVemGZM.woff2",
+      "https://fonts.gstatic.com/s/newsreader/v26/cY9CfjOCX1hbuyalUrK439vCjohC.woff2",
+      "https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=UnifrakturMaguntia&display=swap",
+      "https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=UnifrakturMaguntia&display=swap",
+      "https://fonts.gstatic.com/s/librefranklin/v20/jizDREVItHgc8qDIbSTKq4XkRiUf2zc.woff2",
+      "https://fonts.gstatic.com/s/newsreader/v26/cY9CfjOCX1hbuyalUrK439vCjohC.woff2",
+      "https://fonts.gstatic.com/s/newsreader/v26/cY9AfjOCX1hbuyalUrK4397yjA.woff2",
+      "https://fonts.gstatic.com/s/unifrakturmaguntia/v22/WWXPlieVYwiGNomYU-ciRLRvEmK7oaVemGZM.woff2",
+      "https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=UnifrakturMaguntia&display=swap",
+      "https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=UnifrakturMaguntia&display=swap",
+      "https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=UnifrakturMaguntia&display=swap",
+      "https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=UnifrakturMaguntia&display=swap",
+      "https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=UnifrakturMaguntia&display=swap",
+      "https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=UnifrakturMaguntia&display=swap",
+      "https://fonts.gstatic.com/s/librefranklin/v20/jizDREVItHgc8qDIbSTKq4XkRiUf2zc.woff2",
+      "https://fonts.gstatic.com/s/newsreader/v26/cY9CfjOCX1hbuyalUrK439vCjohC.woff2",
+      "https://fonts.gstatic.com/s/newsreader/v26/cY9AfjOCX1hbuyalUrK4397yjA.woff2",
+      "https://fonts.gstatic.com/s/unifrakturmaguntia/v22/WWXPlieVYwiGNomYU-ciRLRvEmK7oaVemGZM.woff2"
+    ],
+    "contrast": [
+      {
+        "selector": ".lead-body p",
+        "foreground": "rgb(31, 27, 22)",
+        "background": "rgb(242, 234, 216)",
+        "ratio": 14.3
+      },
+      {
+        "selector": ".lead-kicker",
+        "foreground": "rgb(176, 40, 28)",
+        "background": "rgb(242, 234, 216)",
+        "ratio": 5.54
+      },
+      {
+        "selector": ".section-deck",
+        "foreground": "rgb(101, 92, 77)",
+        "background": "rgb(242, 234, 216)",
+        "ratio": 5.49
+      },
+      {
+        "selector": ".explainer h2",
+        "foreground": "rgb(31, 27, 22)",
+        "background": "rgb(233, 223, 200)",
+        "ratio": 12.92
+      },
+      {
+        "selector": ".explainer > .eyebrow",
+        "foreground": "rgb(176, 40, 28)",
+        "background": "rgb(233, 223, 200)",
+        "ratio": 5.01
+      },
+      {
+        "selector": ".watch-label .small-note",
+        "foreground": "rgb(101, 92, 77)",
+        "background": "rgb(233, 223, 200)",
+        "ratio": 4.97
+      }
+    ],
+    "limitations": [
+      "Emulated viewports, not physical devices.",
+      "No human screen-reader session or native browser zoom test."
+    ],
+    "fonts": [
+      {
+        "family": "UnifrakturMaguntia",
+        "loaded": true
+      },
+      {
+        "family": "Newsreader",
+        "loaded": true
+      },
+      {
+        "family": "Libre Franklin",
+        "loaded": true
+      }
+    ],
+    "textResizeOverflow": [],
+    "fontFetchBlocked": false
+  },
+  "additionalEditionChecks": {
+    "browser": "156.0.8078.4",
+    "checks": [
+      "390px first screen includes masthead, Latest edition, sources control and full lead headline",
+      "All five real tabs appear newest first",
+      "Exactly one Latest tag belongs to No. 005",
+      "Desktop lead has no overlapping text fragments between its three paragraphs",
+      "Sources are hidden before reading an edition",
+      "Issue 5: headline and anchor match",
+      "Issue 5: UTC publication date and covering week match",
+      "Issue 5: weekly or all-time leader scope is explicit",
+      "Issue 5: source preference persists without networking",
+      "Issue 5: no horizontal document overflow",
+      "Issue 4: headline and anchor match",
+      "Issue 4: UTC publication date and covering week match",
+      "Issue 4: weekly or all-time leader scope is explicit",
+      "Issue 4: source preference persists without networking",
+      "Issue 4: no horizontal document overflow",
+      "Issue 3: headline and anchor match",
+      "Issue 3: UTC publication date and covering week match",
+      "Issue 3: weekly or all-time leader scope is explicit",
+      "Issue 3: source preference persists without networking",
+      "Issue 3: no horizontal document overflow",
+      "Issue 2: headline and anchor match",
+      "Issue 2: UTC publication date and covering week match",
+      "Issue 2: weekly or all-time leader scope is explicit",
+      "Issue 2: source preference persists without networking",
+      "Issue 2: no horizontal document overflow",
+      "Issue 1: headline and anchor match",
+      "Issue 1: UTC publication date and covering week match",
+      "Issue 1: weekly or all-time leader scope is explicit",
+      "Issue 1: source preference persists without networking",
+      "Issue 1: no horizontal document overflow",
+      "No application exceptions across all real editions"
+    ],
+    "firstScreen": {
+      ".masthead h1": {
+        "x": 16,
+        "y": 108.375,
+        "width": 358,
+        "height": 48.609375,
+        "bottom": 156.984375
+      },
+      ".edition-tab": {
+        "x": 22,
+        "y": 290.9375,
+        "width": 268.609375,
+        "height": 44,
+        "bottom": 334.9375
+      },
+      ".source-switch": {
+        "x": 213.484375,
+        "y": 342.9375,
+        "width": 160.515625,
+        "height": 44,
+        "bottom": 386.9375
+      },
+      "#lead-headline": {
+        "x": 16,
+        "y": 449.734375,
+        "width": 358,
+        "height": 89.8125,
+        "bottom": 539.546875
+      }
+    },
+    "fragmentOverlap": [],
+    "offlineEditions": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "errors": [],
+    "limitations": [
+      "The supplied browser MCP could not launch because its configured Chrome executable was absent. These checks use local Playwright Chromium.",
+      "Playwright WebKit could not launch because host shared libraries were missing.",
+      "No physical-device, screen-reader or native browser zoom testing."
+    ]
+  },
+  "visitResponses": [
+    [
+      "https://explorer.imd.fun/jobs/e550db1a-22a7-4d87-86f7-a46ae7c8d76f",
+      200
+    ],
+    [
+      "https://explorer.imd.fun/jobs/b532416f-e903-4c5e-8110-a2d41aebc5b2",
+      200
+    ],
+    [
+      "https://explorer.imd.fun/jobs/11122397-f7aa-4ccf-bbba-3b44055d438c",
+      200
+    ],
+    [
+      "https://explorer.imd.fun/jobs/a5805d0d-83ac-40ab-814c-dc44f7ef6b17",
+      200
+    ]
+  ],
+  "checkCount": 89
+}

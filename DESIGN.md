@@ -96,14 +96,24 @@ The current six-domain revision review, rendered evidence and limitations are in
 
 ## Publication and archive behavior
 
-The page is a reading product: the masthead identifies it, and the edition tabs and Show sources switch are the primary controls. The latest issue is selected initially. All four issues are embedded in the production HTML at build time; subsequent edition selection does not fetch data.
+The page is a reading product: the masthead identifies it, and the edition tabs and Show sources switch are the primary controls. The latest issue is selected initially. All five issues are embedded in the production HTML at build time; subsequent edition selection does not fetch data.
 
 The `.date-line` shows a publication-date `<time>` and “Covering <week> · UTC”. The date formatter takes the UTC weekday/day/month/year from `Intl.DateTimeFormat.formatToParts` and assembles explicit separators, such as “Monday, 26 October 2026”, so server and browser locale punctuation cannot cause hydration recovery. The `#leaders-title` heading says “Hardest-working seats this week” for `leadersScope: "this week"`, and “Hardest-working seats of all time” otherwise. Issues without a scope retain all-time semantics. The online figure is labelled “Workers online”, with a visible snapshot footnote.
 
-The archive now has four tabs, newest first, with only No. 004 tagged Latest. The original horizontal tab scrolling and keyboard scrolling remain. The root metadata includes the title, description, SVG favicon, Open Graph title and local 1200×630 share image. The image’s relative URL supports an export whose eventual hosting address is not part of the build.
+The archive now has five tabs, newest first, with only No. 005 tagged Latest. The original horizontal tab scrolling and keyboard scrolling remain. The root metadata includes the title, description, SVG favicon, Open Graph title and local 1200×630 share image. The image’s relative URL supports an export whose eventual hosting address is not part of the build.
 
-## Scope of the issue 004 review
+## Historical scope of the issue 004 review
 
 The initial issue 004 publication reused the existing components unchanged. This revision changes only masthead fitting and publication-date formatting, as documented above. The palette, loaded fonts, spacing, breakpoints, metadata and build configuration remain intact. The pinned design probe’s stricter house preferences for six type sizes, three weights, sentence-case labels, no kickers and limited first-screen prose conflict with the instruction to keep the existing newspaper design exactly. The incumbent design has more sizes and four weights, tracked uppercase print labels and editorial kickers; those are documented exceptions, not new styling changes or a claim that every probe check passes.
 
 The final validation note distinguishes rendered checks from source review. Chromium and the reproducing Ubuntu WebKit build were tested. Native screen-reader use, native browser zoom and physical devices remain unverified. WebKit's loaded-font tests used unchanged Google Fonts responses via a test-only Node transport because its TLS module was unavailable; the production site is unchanged in this respect. The source’s forced-colors and print rules remain documented without treating their presence as a rendered test.
+
+## Scope of the issue 005 review
+
+Issue 005 adds editorial data and reporting notes without changing `src/`, `index.html`, configuration, dependencies or application behavior. The palette, type roles, component contracts, spacing and breakpoints described above remain the implemented source of truth. All six pinned Better Interface domains were reviewed; current observations and limitations are in [`docs/validation-005.md`](docs/validation-005.md).
+
+The export was checked in Chromium 156 at **320, 390, 768, 1024 and 1440px**, including the open glossary, keyboard focus, enlarged text and blocked external networking. All five real editions were also exercised offline at 390px. The [first-screen screenshot](artifacts/005-screenshots/mobile-first-screen.jpg) shows the masthead, selected edition, source control and lead. The [desktop screenshot](artifacts/005-screenshots/desktop.jpg) shows the unchanged front-page composition. Google Fonts loaded directly in Chromium. The six opaque contrast pairs documented above were measured again with the same results.
+
+The probe's column-overlap warning was checked using real text fragments from all three lead paragraphs at 1440px: **zero cross-paragraph overlaps**. Its six other flags concern inherited uppercase/tracked labels, kickers, more than six type sizes, four weights and first-screen prose density. The brief says to keep the existing design, layout and code exactly; these remain design exceptions. No font, palette, component or layout was added.
+
+The supplied browser MCP could not launch its missing Chrome executable. Playwright Chromium supplied screenshots and interaction evidence. WebKit could not launch because host shared libraries were missing; historical Safari observations above were not re-certified for issue 005. Human screen-reader use, physical devices, native browser zoom, forced-colors and print rendering were not tested. Wallet connectors, forms, financial actions, alternate themes and localization are not part of this paper.
